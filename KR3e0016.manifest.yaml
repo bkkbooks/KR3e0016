@@ -1,0 +1,84 @@
+canonical_identifier: bkk:krp/KR3e0016/v1
+canonical_location: https://kanripo.org/bkk/KR3e0016/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 顱顖經
+  date: '2015-08-24 23:04:27.223991'
+  source:
+    repository: kanripo
+    path: KR3e0016
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3e0016_000.yaml, hash: 'sha256:3d1eeb999942b0083549ed73d5fad9d1e843ee4e51f9869c3e34a3ab744679de'}
+  - {seq: 1, filename: KR3e0016_001.yaml, hash: 'sha256:0bf3fb5070e1abf1fb1b8da9be5d02e33c35ac2c93df970fe54c604228dd3a4a'}
+  - {seq: 2, filename: KR3e0016_002.yaml, hash: 'sha256:ac9422a82036fbd52295a4d4e5d87f738b2767e8f7492922f5c70a3a8a9080ba'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3e0016_000.markers.yaml, hash: 'sha256:82451a44ee474f5ad34e1777cbce6f04fc4fdc39ceb5e37009777f299263c99b'}
+  - {seq: 1, role: markers, filename: assets/KR3e0016_001.markers.yaml, hash: 'sha256:26c546eafcf5bb778fb80edf6fa99c624f94f97ef6a9f93c17828838148f09cb'}
+  - {seq: 2, role: markers, filename: assets/KR3e0016_002.markers.yaml, hash: 'sha256:b57cf4b42e6b5bad96b27fe567daeb9e9dfb8eea9638f0f5a4a6c5ec614426f0'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3e0016_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 403
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3e0016_WYG_000-3a
+    span:
+    - body
+    - 403
+    - 1043
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3e0016_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 3008
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3e0016_WYG_001-14a
+    span:
+    - body
+    - 3008
+    - 3107
+  label: 卷上考證
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3e0016_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 1566
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:845033378ebd46999d76c39f26bfa9a410dd2d9faee7ef8773b51e8b586c70f2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
